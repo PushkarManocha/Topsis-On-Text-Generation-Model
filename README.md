@@ -60,9 +60,9 @@ pip install numpy pandas
 
 Clone the repository:
 
-git clone https://github.com/your-username/TOPSIS-Text-Generation.git
+git clone https://github.com/your-username/TOPSIS-On-Text-Generation-Model.git
 
-cd TOPSIS-Text-Generation
+cd TOPSIS-On-Text-Generation-Model
 
 
 Run the TOPSIS evaluation script:
