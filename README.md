@@ -1,4 +1,5 @@
 TOPSIS-Based Evaluation of Text Generation Models
+
 #Overview
 
 This project applies the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) multi-criteria decision-making method to evaluate and rank pre-trained text generation models based on multiple performance metrics. The approach enables an objective and transparent comparison of models by considering both qualitative and quantitative criteria.
@@ -104,5 +105,7 @@ TOPSIS-Text-Generation/
 #Author
 
 Pushkar Manocha
+
 Roll No: 102303751
+
 Thapar Institute of Engineering and Technology
