@@ -108,13 +108,11 @@ Score Computation and Ranking
 
 ##Project Structure
 
-TOPSIS-Text-Generation/
+TOPSIS-On-Text-Generation-Model/
 
 │
 
 ├── topsis_text_generation.py
-
-├── dataset.csv
 
 ├── topsis_results.csv
 
