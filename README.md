@@ -31,20 +31,27 @@ BERT Fine-Tuned
 Each model is assessed using the following metrics:
 
 Criterion	Description	Type
+
 Perplexity	Measures model uncertainty	Cost ↓
+
 BLEU Score	Measures text generation accuracy	Benefit ↑
+
 ROUGE Score	Measures content overlap	Benefit ↑
+
 Execution Time	Time taken for text generation	Cost ↓
+
 Memory Usage	Memory consumed during execution	Cost ↓
 
 #Dataset Description
 
 The dataset contains performance values of each model across the above metrics.
+
 All criteria are normalized before ranking to ensure scale independence and fairness.
 
 #Installation
 
 Ensure Python 3.7 or higher is installed.
+
 Install the required dependencies using:
 
 pip install numpy pandas
@@ -54,6 +61,7 @@ pip install numpy pandas
 Clone the repository:
 
 git clone https://github.com/your-username/TOPSIS-Text-Generation.git
+
 cd TOPSIS-Text-Generation
 
 
@@ -71,9 +79,13 @@ topsis_results.csv
 The script generates a ranked list of models based on their TOPSIS scores.
 
 Sample Output:
+
 Model	TOPSIS Score	Rank
+
 GPT-3.5	0.87	1
+
 T5-Large	0.72	2
+
 BERT Fine-Tuned	0.65	3
 
 Higher TOPSIS scores indicate better overall performance.
@@ -95,11 +107,17 @@ Distance Calculation from ideal points
 Score Computation and Ranking
 
 #Project Structure
+
 TOPSIS-Text-Generation/
+
 │
+
 ├── topsis_text_generation.py
+
 ├── dataset.csv
+
 ├── topsis_results.csv
+
 └── README.md
 
 #Author
