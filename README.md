@@ -1,10 +1,10 @@
 TOPSIS-Based Evaluation of Text Generation Models
 
-#Overview
+##Overview
 
 This project applies the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) multi-criteria decision-making method to evaluate and rank pre-trained text generation models based on multiple performance metrics. The approach enables an objective and transparent comparison of models by considering both qualitative and quantitative criteria.
 
-#Key Features
+##Key Features
 
 Implements the TOPSIS algorithm for model ranking
 
@@ -16,7 +16,7 @@ Produces a normalized decision matrix for fair comparison
 
 Exports final rankings and scores to a CSV file for easy analysis
 
-#Models Evaluated
+##Models Evaluated
 
 The following pre-trained / fine-tuned text generation models are evaluated:
 
@@ -26,7 +26,7 @@ T5-Large
 
 BERT Fine-Tuned
 
-#Evaluation Criteria
+##Evaluation Criteria
 
 Each model is assessed using the following metrics:
 
@@ -42,13 +42,13 @@ Execution Time	Time taken for text generation	Cost ↓
 
 Memory Usage	Memory consumed during execution	Cost ↓
 
-#Dataset Description
+##Dataset Description
 
 The dataset contains performance values of each model across the above metrics.
 
 All criteria are normalized before ranking to ensure scale independence and fairness.
 
-#Installation
+##Installation
 
 Ensure Python 3.7 or higher is installed.
 
@@ -56,7 +56,7 @@ Install the required dependencies using:
 
 pip install numpy pandas
 
-#How to Run
+##How to Run
 
 Clone the repository:
 
@@ -74,7 +74,7 @@ The ranked results will be saved automatically to:
 
 topsis_results.csv
 
-#Output
+##Output
 
 The script generates a ranked list of models based on their TOPSIS scores.
 
@@ -90,7 +90,7 @@ BERT Fine-Tuned	0.65	3
 
 Higher TOPSIS scores indicate better overall performance.
 
-#TOPSIS Methodology
+##TOPSIS Methodology
 
 The TOPSIS algorithm follows these steps:
 
@@ -106,7 +106,7 @@ Distance Calculation from ideal points
 
 Score Computation and Ranking
 
-#Project Structure
+##Project Structure
 
 TOPSIS-Text-Generation/
 
@@ -120,7 +120,7 @@ TOPSIS-Text-Generation/
 
 └── README.md
 
-#Author
+##Author
 
 Pushkar Manocha
 
